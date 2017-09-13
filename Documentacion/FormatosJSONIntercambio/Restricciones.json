@@ -1,0 +1,46 @@
+{
+	"pId": "7031891086979855057",
+    "pNombre": "BBVATest1",
+    "pVersion": "1.0",
+    "aId": "3",
+    "aNombre": "Actor1",
+    "uId": 2,
+    "uNombre": "April Sanchez",
+    "restricciones": [
+      {        
+        "restriccion": "Producto",
+        "condicion": "igual a",
+        "valor": "Libranzas"
+      },
+      {       
+        "restriccion": "Monto",
+        "condicion": "<",
+        "valor": "5000"
+      },
+      {       
+        "restriccion": "Monto",
+        "condicion": ">",
+        "valor": "10000"
+      }
+    ],
+    "prioridades": [
+      {
+        "prioridad": "Monto",
+        "condicion": ">",
+        "valor": "8000",
+        "peso": "50"
+      },
+      {
+        "prioridad": "Monto",
+        "condicion": ">",
+        "valor": "9000",
+        "peso": "10"
+      }
+    ],
+    "ordenes": [
+      {
+        "orden": "Monto",
+        "criterio": "DESC"
+      }
+    ]    
+}
