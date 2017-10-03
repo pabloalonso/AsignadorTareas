@@ -1,0 +1,3 @@
+mvn install:install-file -Dfile=bonita-server-sp-7.4.3.jar -DgroupId=com.bonitasoft.engine -DartifactId=bonita-server-sp-patch -Dversion=7.4.3 -Dpackaging=jar
+mvn install:install-file -Dfile=bonita-client-sp-7.4.3.jar -DgroupId=com.bonitasoft.engine -DartifactId=bonita-client-sp-patch -Dversion=7.4.3 -Dpackaging=jar
+mvn install:install-file -Dfile=bonita-common-sp-7.4.3.jar -DgroupId=com.bonitasoft.engine -DartifactId=bonita-common-sp-patch -Dversion=7.4.3 -Dpackaging=jar
