@@ -1,19 +1,9 @@
 {
-	"pId": "7031891086979855057",
-    "pNombre": "BBVATest1",
-    "pVersion": "1.0",
+	"catId": "102",
 	"campos":[
 		{
-			"nombre":"monto",
+			"nombre":"Monto",
 			"condicion":[
-				{
-					"key":">",
-					"value":"mayorQue"
-				},
-				{
-					"key":"<",
-					"value":"menorQue"
-				},
 				{
 					"key":">=",
 					"value":"mayorIgualQue"
@@ -26,23 +16,32 @@
 					"key":"=",
 					"value":"igual"
 				},
+				{
+					"key":"BETWEEN",
+					"value":"entre"
+				}
+
 			],
-			"tipoValor":"numerico"
-			"valorReferencia":undefined
+			"tipoValor":"numerico",
+			"valorReferencia": ""
 		},
 		{
-			"nombre":"producto",
+			"nombre":"Producto",
 			"condicion":[
 				{
-					"key":"igual",
+					"key":"=",
 					"value":"igual"
 				},
 				{
-					"key":"distinto",
+					"key":"!=",
 					"value":"distinto"
+				},
+				{
+					"key":"IN",
+					"value":"dentro de"
 				}
 			],
-			"tipoValor":"seleccion"
+			"tipoValor":"seleccion",
 			"valorReferencia":[
 				{
 					"key":"Vehiculo",
@@ -55,18 +54,132 @@
 			]
 		},
 		{
-			"nombre":"nueva",
+			"nombre":"TechnoIndividual",
 			"condicion":[
 				{
-					"key":"Nueva",
-					"value":"true"
+					"key":">=",
+					"value":"mayorIgualQue"
 				},
 				{
-					"key":"Antigua",
-					"value":"false"
+					"key":"<=",
+					"value":"menorIgualQue"
+				},
+				{
+					"key":"=",
+					"value":"igual"
+				},
+				{
+					"key":"BETWEEN",
+					"value":"entre"
+				}
+
+			],
+			"tipoValor":"numerico",
+			"valorReferencia": ""
+		},
+		{
+			"nombre":"TechoGlobal",
+			"condicion":[
+				{
+					"key":">=",
+					"value":"mayorIgualQue"
+				},
+				{
+					"key":"<=",
+					"value":"menorIgualQue"
+				},
+				{
+					"key":"=",
+					"value":"igual"
+				},
+				{
+					"key":"BETWEEN",
+					"value":"entre"
+				}
+
+			],
+			"tipoValor":"numerico",
+			"valorReferencia": ""
+		},
+		{
+			"nombre":"FuerzaVenta",
+			"condicion":[
+				{
+					"key":">=",
+					"value":"mayorIgualQue"
+				},
+				{
+					"key":"<=",
+					"value":"menorIgualQue"
+				},
+				{
+					"key":"=",
+					"value":"igual"
+				},
+				{
+					"key":"BETWEEN",
+					"value":"entre"
+				}
+
+			],
+			"tipoValor":"numerico",
+			"valorReferencia": ""
+		},
+		{
+			"nombre":"TipoCliente",
+			"condicion":[
+				{
+					"key":"=",
+					"value":"igual"
+				},
+				{
+					"key":"!=",
+					"value":"distinto"
+				},
+				{
+					"key":"dentro de",
+					"value":"dentro de"
 				}
 			],
-			"tipoValor":"booleano"
-			"valorReferencia":undefined
+			"tipoValor":"seleccion",
+			"valorReferencia":[
+				{
+					"key":"VIP",
+					"value":"vip"
+				},
+				{
+					"key":"Especial",
+					"value":"especial"
+				}
+			]
+		},
+		{
+			"nombre":"NombreConvenio",
+			"condicion":[
+				{
+					"key":"=",
+					"value":"igual"
+				},
+				{
+					"key":"!=",
+					"value":"distinto"
+				},
+				{
+					"key":"dentro de",
+					"value":"dentro de"
+				}
+			],
+			"tipoValor":"seleccion",
+			"valorReferencia":[
+				{
+					"key":"Accionistas",
+					"value":"accionistas"
+				},
+				{
+					"key":"Trabajadores",
+					"value":"trabajadores"
+				}
+			]
 		}
+	]
 }
