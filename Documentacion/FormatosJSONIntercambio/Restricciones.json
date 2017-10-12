@@ -1,5 +1,3 @@
-{timestamp:12313123123,
-parametria:
 {
 	"pId": "7031891086979855057",
     "pNombre": "BBVATest1",
@@ -8,21 +6,58 @@ parametria:
     "aNombre": "Actor1",
     "uId": 2,
     "uNombre": "April Sanchez",
+[
+  {
+    "userId": 4,
+    "userName": "Walter Bates",
+    "catId": 1,
+    "lastModified": "",
+
+
+
+
     "restricciones": [
       {        
         "restriccion": "Producto",
         "condicion": "igual a",
         "valor": "Libranzas"
+      {
+        "nombre": "Producto",
+        "condicion": "IN",
+        "valor": [
+          "Vehiculo",
+          "Libranzas"
+        ]
       },
       {       
         "restriccion": "Monto",
         "condicion": "<",
         "valor": "5000"
+      {
+        "nombre": "Monto",
+        "condicion": "=",
+        "valor": [
+          555
+        ]
       },
       {       
         "restriccion": "Monto",
         "condicion": ">",
         "valor": "10000"
+      {
+        "valor": [
+          "Libranzas"
+        ],
+        "nombre": "Producto",
+        "condicion": "!="
+      },
+      {
+        "valor": [
+          "200",
+          "50000"
+        ],
+        "nombre": "TechoGlobal",
+        "condicion": "BETWEEN"
       }
     ],
     "prioridades": [
@@ -31,19 +66,41 @@ parametria:
         "condicion": ">",
         "valor": "8000",
         "peso": "50"
+        "nombre": "Producto",
+        "condicion": "IN",
+        "valor": [
+          "Vehiculo",
+          "Libranzas"
+        ],
+        "peso": "23"
       },
       {
         "prioridad": "Monto",
         "condicion": ">",
         "valor": "9000",
         "peso": "10"
+        "valor": [
+          "5000"
+        ],
+        "nombre": "TechnoIndividual",
+        "condicion": "<=",
+        "peso": "48"
       }
     ],
     "ordenes": [
       {
         "orden": "Monto",
         "criterio": "DESC"
+        "nombre": "Producto",
+        "criterio": "ASC"
+      },
+      {
+        "criterio": "DESC",
+        "nombre": "TechoGlobal"
       }
     ]    
 }
-}
+
+    ]
+  }
+]
