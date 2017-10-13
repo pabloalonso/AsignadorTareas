@@ -137,7 +137,7 @@
 					"value":"distinto"
 				},
 				{
-					"key":"dentro de",
+					"key":"IN",
 					"value":"dentro de"
 				}
 			],
@@ -165,7 +165,7 @@
 					"value":"distinto"
 				},
 				{
-					"key":"dentro de",
+					"key":"IN",
 					"value":"dentro de"
 				}
 			],
