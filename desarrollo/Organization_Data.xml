@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="bonita">
+      <firstName>Bonita</firstName>
+      <lastName>User</lastName>
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">LcTkpvvquKf4KO+prsfXrQ==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario1">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario2">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario3">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario4">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario5">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario6">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario7">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario8">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario9">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario10">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario11">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario12">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario13">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario14">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario15">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario16">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="member">
+      <displayName>Member</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="bbva">
+      <displayName>BBVA</displayName>
+    </group>
+    <group name="fabrica" parentPath="/bbva">
+      <displayName>fabrica</displayName>
+    </group>
+    <group name="Grupo1" parentPath="/bbva/fabrica">
+      <displayName>Grupo1</displayName>
+    </group>
+    <group name="Grupo2" parentPath="/bbva/fabrica">
+      <displayName>Grupo2</displayName>
+    </group>
+    <group name="Grupo3" parentPath="/bbva/fabrica">
+      <displayName>Grupo3</displayName>
+    </group>
+    <group name="Grupo4" parentPath="/bbva/fabrica">
+      <displayName>Grupo4</displayName>
+    </group>
+    <group name="Grupo5" parentPath="/bbva/fabrica">
+      <displayName>Grupo5</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>bonita</userName>
+      <roleName>member</roleName>
+      <groupName>bbva</groupName>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>Usuario1</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo1</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario2</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo1</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario3</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo1</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario4</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo1</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario5</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo2</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario6</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo2</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario7</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo2</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario8</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo2</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario9</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo4</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario10</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo4</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario11</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo4</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario12</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo4</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario13</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo5</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario14</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo5</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario15</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo5</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Usuario16</userName>
+      <roleName>member</roleName>
+      <groupName>Grupo5</groupName>
+      <groupParentPath>/bbva/fabrica</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>
