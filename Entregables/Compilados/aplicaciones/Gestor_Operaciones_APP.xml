@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="gestor-operaciones" version="1.0" profile="Gestor_Operaciones" homePage="busqueda" state="ACTIVATED" layout="custompage_sideMenuv3" theme="custompage_bootstrapdefaulttheme">
+        <displayName>Gestor de Operaciones</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_gBusqueda" token="busqueda"/>
+        </applicationPages>
+    </application>
+</applications>

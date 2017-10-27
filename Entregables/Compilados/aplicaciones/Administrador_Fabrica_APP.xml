@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="admin-fabrica" version="1.0" profile="Administrador_Fabrica" homePage="reglas" state="ACTIVATED" layout="custompage_sideMenuv3" theme="custompage_bootstrapdefaulttheme">
+        <displayName>Administrador Fábrica</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_AsignadorDeTareasv87" token="reglas"/>
+        </applicationPages>
+    </application>
+</applications>
